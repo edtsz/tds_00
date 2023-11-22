@@ -11,7 +11,7 @@ void main (){
     multiplicacao = valorA * valorB;
     divisao = valorA / valorB;
     printf ("A soma é: %i \n",soma);
-    printf ("A subtração é: %i",subtracao);
-    printf ("A multiplicação é: %i",multiplicacao);
-    printf ("A divisão é: %i",divisao);
+    printf ("A subtração é: %i \n",subtracao);
+    printf ("A multiplicação é: %i \n",multiplicacao);
+    printf ("A divisão é: %i \n",divisao);
 }
