@@ -1,0 +1,36 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+  int main() {
+    int valorA, valorB, valorC, maior;
+    
+    printf("Digite um número inteiro A: ");
+    scanf("%i",&valorA);
+    printf("Digite um número inteiro B: ");
+    scanf("%i",&valorB);
+    printf("Digite um número inteiro C: ");
+    scanf("%i",&valorC);
+    
+    if (valorA > valorB){
+    if (valorA > valorC){
+        printf("Maior A: %i",valorA);
+    }
+    }
+    
+    if (valorB > valorA){
+    if (valorB > valorC){
+        printf("Maior B: %i",valorB);
+        
+    }
+    }
+        
+    if (valorC > valorA){
+    if (valorC > valorB){    
+     printf("Maior C: %i",valorC);
+    
+    }
+    }
+     
+    return 0;
+
+}
