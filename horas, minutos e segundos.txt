@@ -1,18 +1,14 @@
-
-NOTA IMPORTANTE: ainda precisa ser finalizado. Caso queira, sinta-se à vontade
-______________________________________________________
-
 #include <stdio.h>
 
 int main() {
     
     float hora, minutos, segundos;
-     printf("digite o valor em segundos: ");
+     printf("digite o valor em horas: ");
      
-    scanf("%f", &segundos);
-    segundos = 60;
-    minutos = 60 / segundos;
-    hora = 60 / minutos;
+    scanf("%f", &hora);
+    hora = 1;
+    minutos = 60 / hora;
+    segundos = 60 * minutos;
     
     printf("O valor em horas é: %f \n", hora);
     printf("O valor em minutos é: %f \n", minutos);
