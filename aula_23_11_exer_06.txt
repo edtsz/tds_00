@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+
+int main() {
+    int diasCarro;
+    float quantidadeKm, precoTotal, carro, km, valorDias, valorKm;
+    carro = 90.00;
+    km = 0.20;
+    
+    printf("Digite a quantidade de dias que o veículo foi alugado: ");
+    scanf ("%i", &diasCarro);
+    printf("Digite a quantidade de km percorridos: ");
+    scanf ("%f", &quantidadeKm);
+    
+    valorDias = carro * diasCarro;
+    valorKm = km * quantidadeKm;
+    
+    precoTotal = valorDias + valorKm;
+    
+    printf("O valor preço total a ser pago é : R$ %f", precoTotal);
+
+ 
+   return 0;
+}

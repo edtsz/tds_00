@@ -1,0 +1,45 @@
+
+#include <stdio.h>
+
+int main() {
+    int codAluno;
+    float nota1, nota2, nota3, mediaponderada;
+    
+    printf("Digite o código do aluno ");
+    scanf("%i",&codAluno);
+    printf("Digite a primeira nota: ");
+    scanf("%f",&nota1);
+    printf("Digite a segunda nota: ");
+    scanf("%f",&nota2);
+    printf("Digite a terceira nota: ");
+    scanf("%f",&nota3);
+    
+if (nota1 > nota2 && nota1 > nota3){
+mediaponderada = (( nota1 * 4 ) + (nota2 * 3) + (nota3 * 3)) /10;
+}
+else if (nota2 > nota1 && nota2 > nota3){
+mediaponderada = (( nota2 * 4 ) + (nota1 * 3) + (nota3 * 3)) /10;
+}
+else if (nota3 > nota1 && nota3 > nota2){
+mediaponderada = (( nota3 * 4 ) + (nota1 * 3) + (nota2 * 3.)) /10;
+}
+if (mediaponderada >= 5.00){
+printf("Código do Aluno = %d\n",codAluno);
+printf("Nota 1 = %.2f\n",nota1);
+printf("Nota 2 = %.2f\n",nota2);
+printf("Nota 3 = %.2f\n",nota3);
+printf("Média Ponderada = %.2f\n",mediaponderada);
+printf("Aprovado\n");
+}
+
+else if (mediaponderada < 5.00){
+printf("Código do aluno = %d\n",codAluno);
+printf("Nota 1 = %.2f\n",nota1);
+printf("Nota 2 = %.2f\n",nota2);
+printf("Nota 3 = %.2f\n",nota3);
+printf("Media Ponderada = %.2f\n",mediaponderada);
+printf("Reprovado\n");
+}
+
+return 0;
+}

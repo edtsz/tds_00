@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+
+int main() {
+    float valorA, valorB, valorC, media;
+    printf("Digite o primeiro valor: ");
+    scanf("%f",&valorA);
+    printf("Digite o segundo valor: ");
+    scanf("%f",&valorB);
+    printf("Digite o terceiro valor: ");
+    scanf("%f",&valorC);
+    
+    media = (valorA + valorB + valorC)/3 ;
+    
+    if (media >=7.00){
+    printf ("A média é = %.2f\n", media);
+    printf("Aprovado \n");
+    }
+    
+    if (media <7.00){
+    printf ("A média é = %.2f\n", media);
+    printf("Reprovado \n");
+    }
+    
+     return 0;
+}
