@@ -1,4 +1,3 @@
-real ou dólar (talvez euro):
 #include <stdio.h>
 
 int main() {
