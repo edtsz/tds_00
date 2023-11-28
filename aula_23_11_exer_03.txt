@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+
+int main() {
+    float duracaoEvento, duracaoHoras, duracaoMinutos, duracaoSegundos;
+  
+    printf("Digite a duração do evento em segundos: ");
+    scanf("%f",&duracaoEvento);
+    
+    duracaoHoras = duracaoEvento / 3600;
+    duracaoMinutos = duracaoEvento / 60;
+    duracaoSegundos = duracaoEvento;
+
+    printf("Durcação evento em horas: %f\n",duracaoHoras);
+    printf("Durcação evento em minutos: %f\n",duracaoMinutos);
+    printf("Durcação evento em segundos: %f\n",duracaoSegundos);
+    
+    
+    return 0;
+}

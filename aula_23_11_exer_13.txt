@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+
+int main() {
+float largura, comprimento,area;
+
+printf("Digite ao comprimento do terreno em metros: ");
+scanf("%f",&comprimento);
+
+printf("Digite a largura do terreno em metros: ");
+scanf("%f",&largura);
+
+area = comprimento * largura;
+printf("O terreno possui %f em metros \n", area);
+
+if (area <= 100) {
+printf ("Terreno popular");
+}
+else
+if ((area>=100) && (area<=500)){
+printf ("Terreno Master");
+}
+else
+if (area>=500){
+printf ("Terreno VIP");
+}
+    return 0;
+}

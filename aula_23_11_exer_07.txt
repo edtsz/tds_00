@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main() {
+float custoFabrica, somaCustofabrica, distribuidor, imposto, custoDistribuidor, custoImposto; 
+
+distribuidor = 1.28;
+imposto = 1.45;
+
+printf("Digite o valor de custo de fábrica do carro: R$ ");
+scanf ("%f", &custoFabrica);
+
+custoDistribuidor = custoFabrica * distribuidor;
+custoImposto = custoFabrica * imposto;
+somaCustofabrica = custoFabrica + custoDistribuidor + custoImposto;
+
+printf("O custo ao consumidor do carro é : R$ %f", somaCustofabrica);
+
+
+    return 0;
+}

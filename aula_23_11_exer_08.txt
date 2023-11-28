@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+
+  int main() {
+    int valorA, valorB;
+    
+    printf("Digite o primiero número: ");
+    scanf("%i",&valorA);
+    printf("Digite o segundo número: ");
+    scanf("%i",&valorB);
+   
+    if (valorA > valorB){
+    printf("O primeiro valor é o maior.");
+    }
+    else
+    if (valorB > valorA){
+    printf("O segundo valor é o maior.");
+        
+    }
+    else
+    if (valorA = valorB){
+    printf("Não existe valor maior, os dois são iguais.");
+    
+    }
+    return 0;
+}

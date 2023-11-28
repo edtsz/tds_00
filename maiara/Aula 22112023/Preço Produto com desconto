@@ -1,0 +1,18 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float precoProduto, precoPromocional,desconto;
+    
+    printf("Digite o preço do produto: R$ ");
+    scanf ("%f",&precoProduto);
+    
+   
+    desconto = ((precoProduto *1.05) - precoProduto);
+    precoPromocional = precoProduto -desconto;
+    
+    printf("Valor promocional com desconto: %f",precoPromocional);
+    
+
+    return 0;
+}

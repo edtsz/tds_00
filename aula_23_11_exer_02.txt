@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main() {
+    float valorCarteira, valorDolar, dolarComprar;
+    
+    printf("Digite quanto dinhiero há na carteira:R$ ");
+    scanf("%f",&valorCarteira);
+    
+    valorDolar = 4.90;
+    
+    dolarComprar = valorCarteira / valorDolar;
+
+    printf("Pode comprar: %f",dolarComprar);
+    
+    
+    return 0;
+}
