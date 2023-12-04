@@ -12,7 +12,7 @@ int main() {
     
     aterreno = comprimento*largura;
     
-    printf("Área do terreno: %.2fm²", aterreno);
+    printf("Área do terreno: %.2fm²\n", aterreno);
     
     if(aterreno<=100){
         printf("TERRENO POPULAR");
