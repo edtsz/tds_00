@@ -1,0 +1,14 @@
+int main() {
+    int numero, soma = 0, contador = 0;
+
+    do {
+        printf("Digite um numero: ");
+        scanf("%d", &numero);
+
+        soma += numero;
+        contador++;
+    } while (soma < 500);
+
+    printf("A soma ultrapassou 500. Foram lidos %d numeros.\n", contador);
+
+    return 0;
