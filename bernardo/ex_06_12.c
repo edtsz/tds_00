@@ -38,13 +38,13 @@ int main(){
     total = soma(v1,v2);
     printf("%i\n",total);
     
-    int tot = diminuir(3,9);
+    int tot = diminuir(v1,v2);
     printf("%i\n", tot);
     
-    int to = multiplicar(89,5);
+    int to = multiplicar(v1,v2);
     printf("%i\n", to);
     
-    int tota = dividir(50,5);
+    int tota = dividir(v1,v2);
     printf("%i\n", tota);
     return 0;
 }
