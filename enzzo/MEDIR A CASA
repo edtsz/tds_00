@@ -5,33 +5,25 @@ int main() {
     float areaTotal = 0.0;
 
     do {
-        char nome[50];
+    char nome[50];
         float largura, comprimento, area;
-
-        // Solicita informações do cômodo
         printf("Digite o nome do cômodo: ");
-        scanf("%s", nome);
+        scanf("%s",nome);
         printf("Digite a largura do cômodo em metros: ");
         scanf("%f", &largura);
         printf("Digite o comprimento do cômodo em metros: ");
         scanf("%f", &comprimento);
 
-        // Calcula a área do cômodo
         area = largura * comprimento;
 
-        // Acumula a área total
         areaTotal += area;
 
-        // Exibe a área do cômodo
         printf("A área do cômodo %s é: %.2f metros quadrados\n", nome, area);
-
-        // Pergunta se o usuário deseja continuar
         printf("Deseja calcular outro cômodo? (S para Sim, N para Não): ");
         scanf(" %c", &continuar);
 
-    } while (continuar == 'S' || continuar == 's');
+     } while (continuar == 'S' || continuar == 's');
 
-    // Exibe a área total da residência
     printf("A área total da residência é: %.2f metros quadrados\n", areaTotal);
 
     return 0;
