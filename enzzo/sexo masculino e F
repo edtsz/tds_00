@@ -14,14 +14,11 @@ int main() {
         
         if (altura > maiorAltura) {
             maiorAltura = altura;
-        }
-        if (altura < menorAltura) {
+        }if (altura < menorAltura) {
             menorAltura = altura;
-        }
-        if (sexo == 'F' || sexo == 'f') {
+        }if (sexo == 'F' || sexo == 'f') {
             somaAlturaMulheres += altura;
-        }
-        if (sexo == 'M' || sexo == 'm') {
+        }if (sexo == 'M' || sexo == 'm') {
             numHomens++;
         }
     }
@@ -33,3 +30,4 @@ int main() {
 
     return 0;
 }
+
